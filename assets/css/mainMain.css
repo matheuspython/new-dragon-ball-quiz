@@ -2,11 +2,11 @@ body {
     background-color: rgb(246, 246, 246);
 }
 
-main.principal {
+main.main {
     width: 100%;
 }
 
-main.principal .container {
+main.main .container {
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
@@ -25,23 +25,23 @@ main.principal .container>h1 {
     max-width: 700px;
 }
 
-#duas-imagens {
+#two-images {
     display: flex;
     justify-content: space-between;
 }
 
-#duas-imagens img {
+#two-images img {
     width: 48%;
     border-radius: 12px;
 }
 
-#perguntas {
+#Questions {
     background-color: rgb(61, 136, 202);
     color: white;
     font-family: sans-serif;
 }
 
-#perguntas p {
+#Questions p {
     text-align: center;
     text-transform: uppercase;
     font-size: 18px;
@@ -49,12 +49,12 @@ main.principal .container>h1 {
     padding: 8px;
 }
 
-#perguntas ul {
+#Questions ul {
     width: 100%;
     padding: 5px 8px;
 }
 
-#perguntas ul li {
+#Questions ul li {
     padding-left: 5px;
     width: 100%;
     margin: 5px 0;
@@ -62,13 +62,13 @@ main.principal .container>h1 {
     border-radius: 12px;
 }
 
-#perguntas ul li:hover {
+#Questions ul li:hover {
     background-color: rgb(63, 52, 214);
     padding: 5px;
     font-size: 1.2rem;
 }
 
-#perguntas ul li a {
+#Questions ul li a {
     text-decoration: none;
     color: white;
     transition: .4s;
@@ -76,20 +76,20 @@ main.principal .container>h1 {
     display: inline-block;
 }
 
-#perguntas ul li a:hover {
+#Questions ul li a:hover {
     color: rgb(8, 243, 243);
 }
 
 
 /*inicio media queries*/
 
-@media screen and (max-width: 425px) {
-    #duas-imagens {
+@media screen and (max-width: 540px) {
+    #two-images {
         display: flex;
         justify-content: space-between;
         flex-direction: column;
     }
-    #duas-imagens img {
+    #two-images img {
         width: 100%;
         border-radius: 0;
     }
