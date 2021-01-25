@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(246, 246, 246);
+}
+
+main.principal {
+    width: 100%;
+}
+
+main.principal .container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+main.principal .container>h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+#game {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 700px;
+}
+
+#duas-imagens {
+    display: flex;
+    justify-content: space-between;
+}
+
+#duas-imagens img {
+    width: 48%;
+    border-radius: 12px;
+}
+
+#perguntas {
+    background-color: rgb(61, 136, 202);
+    color: white;
+    font-family: sans-serif;
+}
+
+#perguntas p {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 8px;
+}
+
+#perguntas ul {
+    width: 100%;
+    padding: 0 8px;
+}
+
+#perguntas ul li {}
+
+
+/*inicio media queries*/
+
+@media screen and (max-width: 425px) {
+    #duas-imagens {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    #duas-imagens img {
+        width: 100%;
+        border-radius: 0;
+    }
+}
