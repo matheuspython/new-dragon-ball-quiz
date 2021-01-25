@@ -42,6 +42,8 @@ main.principal .container>h1 {
 }
 
 #perguntas p {
+    text-align: center;
+    text-transform: uppercase;
     font-size: 18px;
     font-weight: 400;
     padding: 8px;
@@ -49,10 +51,34 @@ main.principal .container>h1 {
 
 #perguntas ul {
     width: 100%;
-    padding: 0 8px;
+    padding: 5px 8px;
 }
 
-#perguntas ul li {}
+#perguntas ul li {
+    padding-left: 5px;
+    width: 100%;
+    margin: 5px 0;
+    transition: .4s;
+    border-radius: 12px;
+}
+
+#perguntas ul li:hover {
+    background-color: rgb(63, 52, 214);
+    padding: 5px;
+    font-size: 1.2rem;
+}
+
+#perguntas ul li a {
+    text-decoration: none;
+    color: white;
+    transition: .4s;
+    width: 100%;
+    display: inline-block;
+}
+
+#perguntas ul li a:hover {
+    color: rgb(8, 243, 243);
+}
 
 
 /*inicio media queries*/
