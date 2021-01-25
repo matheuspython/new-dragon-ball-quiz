@@ -13,7 +13,7 @@ main.main .container {
     padding: 0 2%;
 }
 
-main.principal .container>h1 {
+main.main .container>h1 {
     text-align: center;
     text-transform: uppercase;
     padding: 10px 0;
